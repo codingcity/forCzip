@@ -12,7 +12,6 @@ int main(void)
     /*
     printf("plz, input the ExchangeRate\n");
     scanf(" %d",dollarExchangeRate);
-    )
     */
 
 

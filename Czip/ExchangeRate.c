@@ -9,8 +9,8 @@ int main(void)
 
     printf("Welcome!\n");
 
-    printf("plz, input the dollarExchangeRate!!\n");
-    scanf(" %d",dollarExchangeRate);
+    printf("plz, input the dollarExchangeRate\n");
+    scanf(" %d",&dollarExchangeRate);
 
 
 

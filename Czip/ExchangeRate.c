@@ -9,7 +9,7 @@ int main(void)
 
     printf("Welcome!\n");
 
-    printf("plz, input the dollarExchangeRate\n");
+    printf("plz, input the dollarExchangeRate:");
     scanf(" %d",&dollarExchangeRate);
 
 

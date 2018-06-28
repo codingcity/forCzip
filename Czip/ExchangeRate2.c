@@ -23,7 +23,7 @@ int main(void)
     if( howMuchDollar > 500){
         printf("You have to declare");
     }else{
-        printf("You don't have to declare");
+        printf("You don't have to declare")
     }
 
 

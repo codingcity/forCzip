@@ -13,8 +13,8 @@ int main(void)
 
     printf("Welcome!\n");
     printf("plz, choose the currency:");
-    printf("1.Dollar \n 2.Yuan\n 3.Yen\n");
-    scnaf("%d",currencyChoice);
+    printf("\n1.Dollar \n 2.Yuan\n 3.Yen\n");
+    scanf("%d",&currencyChoice);
 
 
     printf("plz , input the money : ");
@@ -22,9 +22,9 @@ int main(void)
     scanf("%d",&howMuch);
 
     if( howMuch > 500){
-        printf("You have to declare");
+        printf("You have to declare\n");
     }else{
-        printf("You don't have to declare");
+        printf("You don't have to declare\n");
     }
 
 
@@ -46,6 +46,7 @@ int main(void)
             printf("%d(JPY)->",howMuch);
             break;    
         default:
+            printf("plz choose the 1,2,3");
     }
 
     printf("%d(krw)",krw);
